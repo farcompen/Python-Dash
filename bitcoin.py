@@ -21,4 +21,9 @@ class btcVeriAl():
           btc_value.append(a['y'])
 
 
-        return btc_value      
+        return btc_value     
+    def xEkseniOlustur(self):
+        xDegerler = []
+        for a in range (1,31):
+            xDegerler.append(a)
+        return xDegerler    
