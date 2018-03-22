@@ -1,5 +1,5 @@
 
-# -*- coding:utf- 8 -*- 
+#! -*- coding:utf- 8 -*- 
 
 import dash
 import dash_core_components as dcc 
@@ -14,7 +14,7 @@ app.layout = html.Div(children=[
         id='dashornek',
         figure={
             'data': [
-                {'x': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30], 'y': btc.DegerDondur(),  'type': 'line', 'name': 'Bitcoin'},
+                {'x':btc.xEkseniOlustur() , 'y': btc.DegerDondur(),  'type': 'line', 'name': 'Bitcoin'},
               
             ],
             'layout': {
@@ -26,3 +26,4 @@ app.layout = html.Div(children=[
 
 if __name__ =='__main__':
     app.run_server (debug= True)
+
