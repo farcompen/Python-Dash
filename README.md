@@ -1,7 +1,7 @@
 # Python-Dash
-Data Visualition Application with Python and Dash #Dashboard 
+Data Visualition Application with Python and Dash #Dashboard </br>
 it collects btc last 30 day's avarege value then creates graphical output 
-
+![picture](grafik.png)
 # Getting Started 
 first install needed components. 
 Open console(terminal) then 
